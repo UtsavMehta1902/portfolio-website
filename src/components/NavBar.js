@@ -3,8 +3,9 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import githubIcon from '../assets/img/github5.svg';
 import { HashLink } from 'react-router-hash-link';
+import cfIcon from '../assets/img/code-forces1.svg';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -47,13 +48,16 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/utsav-m/"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.facebook.com/UtsavMehta19/"><img src={navIcon2} alt="" /></a>
+                <a href="https://codeforces.com/profile/utsavm"><img src={cfIcon} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              <div className="social-icon-gh">
+                <a href="https://github.com/UtsavMehta1902"><img src={githubIcon} alt="" /></a>
+              </div>
+              {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              </HashLink> */}
             </span>
           </Navbar.Collapse>
         </Container>
