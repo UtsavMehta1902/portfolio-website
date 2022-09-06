@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import githubIcon from '../assets/img/github5.svg';
-import { HashLink } from 'react-router-hash-link';
+
 import cfIcon from '../assets/img/code-forces1.svg';
 import {
   BrowserRouter as Router
