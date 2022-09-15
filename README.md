@@ -1,6 +1,5 @@
 # Personal Portfolio Website in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
 Head over to this [link](https://portfolio-utsav-mehta.herokuapp.com/) to enter my world.
 
 <!-- <img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png"> -->
@@ -11,7 +10,11 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+-Commands to run this on your local server:
+
+### `npm install`
+To install all the required dependencies and libraries for node.
+A new directory named `node_modules` will be created.
 
 ### `npm start`
 
